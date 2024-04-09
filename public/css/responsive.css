@@ -1,0 +1,522 @@
+@media (max-width: 1640px) {
+       FaqSec {
+    background: transparent !important;
+    position: relative;
+}
+
+/*section.FaqSec:before {*/
+/*    top: 0px;*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    background: url('https://demowebsitess.com/custom-backend/natayanjali/public/images/bg-3.png');*/
+/*    height: 569px;*/
+/*    width: 1399px;*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*}*/
+}
+
+@media (max-width: 1440px) {
+
+  .rightDanner-side img {
+    height: 450px;
+  }
+
+  .para {
+    font-size: 14px;
+  }
+  .MainClasses {
+    padding: 7% 7% 7% 7%;
+  }
+  .MainClasses img {
+    max-width: 230px;
+  }
+  .section-3 h2.Elephant-headings {
+    font-size: 2rem;
+  }
+
+  .section-4 .CardPrograms:hover h6:before {
+    width: 70%;
+  }
+  .LeftAboutUs img {
+    max-width: 470px;
+  }
+  .RightAboutUs .para {
+    font-size: 15px;
+  }
+  .section-5 .para {
+    line-height: 1.8;
+    font-size: 16px;
+    margin: 1rem 0;
+  }
+  .section-5 h6.Elephant-headings {
+    font-size: 2rem;
+  }
+  .MainSec-5-content {
+    padding: 5% 5% 5% 5%;
+    width: 80%;
+  }
+  .section-3 {
+    padding: 5rem 0;
+    /* height: 800px; */
+  }
+  .faqimageMainImg img {
+    width: 75%;
+  }
+  .faqimageMainImg:before {
+    width: 330px;
+    height: 380px;
+    bottom: -30px;
+    left: 40px;
+  }
+  .faqimageMainImg:after {
+    width: 320px;
+    height: 380px;
+    top: -20px;
+    right: 40px;
+  }
+  header {
+    height: 120px;
+    padding: 0px;
+  }
+  header .navbar-brand {
+    max-width: 120px;
+  }
+  header a.nav-link {
+    font-size: 13px;
+  }
+  .custom-btn {
+    padding: 8px 2rem;
+    font-size: 14px;
+  }
+  .MainInnerDiv {
+    display: block;
+  }
+  .section-1 {
+    height: 560px;
+  }
+  .section-1 .Elephant-headings {
+    font-size: 2.5rem;
+  }
+  .banner {
+    padding: 3rem 0;
+    padding-top: 3rem;
+  }
+  .Elephant-headings {
+    font-size: 2.5rem;
+  }
+
+  .testimonials .owl-nav.disabled + .owl-dots {
+    margin: 2rem 0;
+  }
+  .Director-Sec:before {
+    left: 28%;
+    width: 43%;
+  }
+  .bg-gradient {
+    padding: 3rem;
+  }
+  .directorSec h5 {
+    font-size: 2.5rem;
+  }
+  .rigistration {
+    padding-bottom: 12rem;
+  }
+  .location-Sec img {
+    max-width: 400px;
+  }
+}
+@media (max-width: 1199px) {
+    
+  .section-1 {
+    height: 460px;
+  }
+  .para {
+    font-size: 13px;
+  }
+  .section-2 {
+    padding: 3rem 0;
+  }
+  .MainClasses img {
+    max-width: 140px;
+  }
+  .section-5 .para {
+    line-height: 1.5;
+  }
+  .FaqSec {
+    padding: 4rem 0;
+  }
+  .faqSec p {
+    margin: 0;
+  }
+  .section-3 {
+    padding: 3rem 0;
+  }
+  .copyright {
+    margin-top: 4rem;
+    padding-top: 21px;
+    padding-bottom: 12px;
+  }
+  .section-4 {
+    padding: 3rem 0;
+  }
+  .SecondSliderContent p {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .testimonials {
+    padding: 3rem 0;
+  }
+  .directorSec p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .directorSec h5 {
+    font-size: 2rem;
+  }
+  header li.nav-item {
+    margin: 0 10px;
+  }
+  .schoolOfArtContent h6 {
+    font-size: 2.5rem;
+  }
+  .LeftAboutUs img {
+    max-width: 100%;
+  }
+  .rigistration {
+    padding-bottom: 3rem;
+  }
+  .rigistration {
+    padding: 2rem 1rem;
+  }
+  
+}
+
+@media (max-width: 991px) {
+  header {
+    height: auto;
+  }
+  header li.nav-item {
+    margin: 6px 6px;
+  }
+  .banner {
+    padding: 2rem 0;
+    padding-top: 2rem;
+  }
+  .bg-gradient {
+    padding: 1rem;
+  }
+  .Location {
+    margin-bottom: 3rem;
+    justify-content: center;
+  }
+  .LocationPara h3 {
+    padding-bottom: 0rem;
+    text-align: center;
+  }
+  location-Sec span p {
+    font-size: 24px;
+    text-align: center;
+  }
+  .LocationPara {
+    text-align: center;
+  }
+  .location-Sec img {
+    max-width: 70%;
+    margin: auto;
+  }
+  .section-2 h2 {
+    font-size: 1.5rem;
+  }
+  .section-2 .para {
+    line-height: 1.5;
+  }
+  .CardPrograms {
+    margin-top: 2rem;
+  }
+  .MainClasses {
+    margin-top: 2rem;
+  }
+  .LeftAboutUs figure {
+    text-align: center;
+  }
+  .sectionheading h1.Elephant-headings {
+    font-size: 1.4rem;
+  }
+  .faqimageMainImg {
+    margin-top: 3rem;
+  }
+  .MainYouTube iframe {
+    height: 350px;
+    margin-bottom: 2rem;
+  }
+  .Quicklinkheading h5 {
+    font-size: 14px;
+    margin-bottom: 2rem;
+  }
+  .Footerlogo p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .FooterIcons a {
+    height: 35px;
+    width: 36px;
+    margin: 0px 3px;
+    font-size: 15px;
+  }
+  .Quicklinkheading ul li a {
+    font-size: 14px;
+  }
+  .FooterButtons {
+    text-align: center;
+  }
+  .copyright {
+    margin-top: 2rem;
+    padding-top: 11px;
+    padding-bottom: 3px;
+  }
+
+  .section-1 .Elephant-headings {
+    transform: rotate3d(1, 2, 0, 50deg) translate(470px, 0px);
+  }
+  .FirstSlideMain {
+    padding: 1rem 1rem;
+    padding-right: 4px;
+  }
+  .SecondSliderContent p {
+    font-size: 13px;
+    line-height: 1.3;
+    margin-bottom: 0;
+  }
+  .testimonials .owl-nav.disabled + .owl-dots {
+    margin: 1rem 0;
+  }
+  .TopTextMain h1 {
+    font-size: 2rem;
+  }
+  .TopTextMain {
+    margin-bottom: 2rem;
+  }
+  .CardPrograms {
+    margin-top: 0rem;
+  }
+  .rightimgDancing img {
+    margin-top: 4rem;
+  }
+  .SchoolOfDance-Sec {
+    padding-top: 4rem;
+  }
+  .SchoolOfDanceImg figure {
+    border-radius: 24px;
+    text-align: center;
+  }
+  .location-Sec img {
+    max-width: 100%;
+  }
+  .rigistration {
+    padding: 1rem 1rem;
+  }
+  .CardPrograms {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .rightDanner-side img {
+    height: 400px;
+    object-fit: cover;
+  }
+  .rightDanner-side img {
+    height: 320px;
+  }
+  .section-1 .Elephant-headings {
+    font-size: 2.1rem;
+  }
+  .section-1 {
+    height: 360px;
+  }
+  .mainSection-2-Content {
+    display: block;
+  }
+  .MainClasses {
+    padding: 7% 5% 7% 5%;
+    width: 80%;
+    margin: 1rem auto;
+  }
+  .MainSec-5-content {
+    width: 100%;
+  }
+  .Quicklinkheading h5 {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+  .MainFooter {
+    text-align: center;
+  }
+  .FooterIcons {
+    justify-content: center;
+  }
+  .Footerlogo p {
+    width: 70%;
+    margin: 1rem auto;
+  }
+  .Quicklinkheading p {
+    width: 60%;
+    margin: 2rem auto;
+  }
+  .copyrightfirsttext p {
+    text-align: center;
+  }
+  .MainFooter {
+    padding: 3rem 0 6px;
+    margin-bottom: 2rem;
+  }
+  .MainFooter {
+    margin-bottom: 0rem;
+  }
+  .Elephant-headings {
+    font-size: 2rem;
+  }
+  .CardPrograms {
+    margin-top: 0rem;
+  }
+  .rightimgDancing figure {
+    text-align: center;
+  }
+  .MainYouTube iframe {
+    height: 290px;
+    margin-bottom: 0rem;
+  }
+  .bg-gradient {
+    padding: 4rem 0;
+  }
+  .LeftAboutUs img {
+    margin-top: 3rem;
+  }
+  .CardPrograms {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .section-1 .Elephant-headings {
+    font-size: 1.5rem;
+  }
+  .section-1 .Elephant-headings {
+    transform: rotate3d(1, 2, 0, 100deg) translate(0px, 0px);
+  }
+  .rightDanner-side img {
+    height: 200px;
+  }
+  .section-1 {
+    height: 300px;
+  }
+  .section-5 h6.Elephant-headings {
+    font-size: 1.5rem;
+  }
+  .FaqSec {
+    overflow: hidden;
+    padding: 2rem 0;
+    padding-bottom: 6rem;
+  }
+
+  .faqSec p {
+    font-size: 13px;
+  }
+
+  .accordionStyle .card .card-header button {
+    font-size: 12px;
+    padding: 6;
+  }
+
+  .faqimageMainImg:before {
+    display: none;
+  }
+
+  .faqimageMainImg:after {
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+  }
+
+  .section-3 h2.Elephant-headings {
+    font-size: 1.3rem;
+  }
+
+  .MainYouTube iframe {
+    height: 190px;
+  }
+
+  .Footerlogo p {
+    width: 90%;
+  }
+
+  .Quicklinkheading p {
+    width: 90%;
+  }
+
+  .accordionStyle .card .card-body p {
+    line-height: 20px;
+    font-size: 13px;
+  }
+  .MainClasses {
+    width: 90%;
+  }
+  .section-4 {
+    padding: 1rem 0;
+  }
+  .section-4 h6.Elephant-headings {
+    font-size: 2rem;
+  }
+  .section-5 {
+    padding: 3rem 0;
+  }
+  .section-2 {
+    padding: 3rem 1rem;
+  }
+  .CardPrograms h6 {
+    font-size: 1rem;
+  }
+  .RightAboutUs .para {
+    font-size: 14px;
+  }
+  .testimonials .owl-theme .owl-dots .owl-dot span {
+    width: 20px;
+  }
+  .testimonials .owl-dot.active:before {
+    width: 30px;
+  }
+  .Elephant-headings {
+    font-size: 1.3rem;
+  }
+  .directorSec h5 {
+    font-size: 1.7rem;
+  }
+  .Director-Sec:before {
+    left: 14%;
+    width: 73%;
+  }
+  .rigistration {
+    padding: 1rem 6px;
+  }
+  .FoamDiv input {
+    padding: 12px 1rem;
+    border-radius: 0px;
+    margin-bottom: 12px;
+  }
+  .FoamDiv .custom-btn {
+    border-radius: 0;
+    padding: 1rem 0;
+  }
+  .FoamDiv .custom-btn {
+    padding: 1rem 0;
+  }
+  .section-1 .Elephant-headings {
+    transform: rotate3d(1, 2, 0, 15deg) translate(100px, 0px);
+  }
+}
