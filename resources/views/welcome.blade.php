@@ -49,7 +49,7 @@
                             <h5 class="Elephant-headings pt-4 pb-3">{{$item->name}}</h5>
                            <!--{!! \Illuminate\Support\Str::limit($item->description, 150, $end='...') !!}-->
                             <!--<a href="{{ route('schoolOfDance').'#'.preg_replace('/-+/', '-', preg_replace('/[^A-Za-z0-9\-]/', '', str_replace(' ', '-', $item->name))) }}" class="btn custom-btn">READ MORE</a>-->
-                            <a href="https://testdemowebsite-v1.com/custom-html/malini-portal/" class="btn custom-btn">READ MORE</a>
+                            <a href="{{ route('schoolOfDance') }}" class="btn custom-btn">READ MORE</a>
                         </div>
                     </div>
                 @endforeach
@@ -178,7 +178,7 @@
                                             <h5 class="Elephant-headings pt-4">{{$item->name}}</h5>
                                            {!! \Illuminate\Support\Str::limit($item->description, 150, $end='...') !!}
                                             <!--<a href="{{ route('classDesc', $item->slug) }}" class="btn custom-btn">READ MORE</a>-->
-                                            <a href="https://testdemowebsite-v1.com/custom-html/malini-portal/" class="btn custom-btn">READ MORE</a>
+                                            <a href="" class="btn custom-btn">READ MORE</a>
                                         </div>
                                     </div>
                                 @endforeach--}}
@@ -191,7 +191,7 @@
                                             </figure>
                                             <h5 class="Elephant-headings pt-4">{{$item->name}}</h5>
                                             <!--<a href="{{ route('schoolOfDance').'#'.$item->section_link }}" class="btn custom-btn">READ MORE</a>-->
-                                            <a href="https://testdemowebsite-v1.com/custom-html/malini-portal/" class="btn custom-btn">READ MORE</a>
+                                            <!--<a href="{{ URL('school-of-dance#location') }}" class="btn custom-btn">READ MORE</a>-->
                                         </div>
                                     </div>
 
