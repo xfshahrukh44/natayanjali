@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+ 
 if(version_compare(PHP_VERSION, '7.2.0', '>=')) {
     error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
 }
@@ -20,7 +20,7 @@ if(version_compare(PHP_VERSION, '7.2.0', '>=')) {
 
 //===================== Admin Routes =====================//
 
-Route::group(['middleware' => ['auth', 'roles'],'roles' => 'admin','prefix'=>'admin'], function () {
+Route::group(['middleware' => ['auth', 'roles'],'roles' => 'admin','prefix'=>'admin'], function () { 
 
 
     Route::get('/','Admin\AdminController@dashboard');

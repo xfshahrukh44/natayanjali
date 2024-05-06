@@ -158,7 +158,7 @@
 
 
     <!-- section-4 html end  -->
-    <section class="location-Sec bg-gradient py section-3 " style="background-image: url({{ asset('images/section-10.png') }})">
+    <section class="location-Sec bg-gradient py section-3 " style="background-image: url({{ asset('images/section-10.png') }})"> 
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
