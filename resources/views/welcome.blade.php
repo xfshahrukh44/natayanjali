@@ -97,10 +97,10 @@
        <!-- section-6 html start  -->
     <section class="FaqSec" style="background:url({{ asset('images/bg-3.png') }})">
         <div class="rightDanner">
-                                            <figure>
-                                                <!--<img src="{{ asset('images/bg-3.png') }}" class="img-fluid" alt="">-->
-                                            </figure>
-                                        </div>
+            <figure>
+                <!--<img src="{{ asset('images/bg-3.png') }}" class="img-fluid" alt="">-->
+            </figure>
+        </div>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12 col-12">
@@ -164,10 +164,12 @@
                 <div class="col-lg-12">
                     <div class="WestCovina">
                         <div class="Location">
+                            
                             <h2 class="Elephant-headings text-center pb-5" style="margin: 0 auto !important;">WHAT WE DO</h2>
 
                         </div>
                         <div class="row">
+                                
                                 {{--@foreach ($danceclass as $key => $item)
                                     <div class="col-lg-4 col-md-6 col-12">
                                         <div class="MainClasses class-{{ $key++ }}" data-aos="flip-left"
@@ -182,7 +184,9 @@
                                         </div>
                                     </div>
                                 @endforeach--}}
+                                
                                 @foreach ($whatwedo as $key => $item)
+                                
                                     <div class="col-lg-3 col-md-3 col-12 mb-5">
                                         <div class="MainClasses class-{{ $key++ }}" data-aos="flip-left"
                                             data-aos-easing="ease-out-cubic" data-aos-duration="2000">
@@ -191,11 +195,29 @@
                                             </figure>
                                             <h5 class="Elephant-headings pt-4">{{$item->name}}</h5>
                                             <!--<a href="{{ route('schoolOfDance').'#'.$item->section_link }}" class="btn custom-btn">READ MORE</a>-->
-                                            <!--<a href="{{ URL('school-of-dance#location') }}" class="btn custom-btn">READ MORE</a>-->
+                                            
+                                            @if($key == '1')
+                                                
+                                                <a href="{{ URL('school-of-dance#location') }}" class="btn custom-btn">READ MORE</a>
+                                            
+                                            @elseif($key == '2')
+                                            
+                                                <a href="https://leapingfeet.com/lander" class="btn custom-btn">READ MORE</a>
+                                                                                            
+                                            @elseif($key == '3')
+                                            
+                                                <a href="{{ URL('school-of-dance#school_policy') }}" class="btn custom-btn">READ MORE</a>
+                                            
+                                            @elseif($key == '4')
+                                            
+                                                <a href="{{ URL('school-of-dance#teaching_philosophy') }}" class="btn custom-btn">READ MORE</a>
+                                                                                            
+                                            @endif
+                                            
                                         </div>
                                     </div>
 
-                                    @endforeach
+                                @endforeach
                                     <!--<div class="col-lg-3 col-md-3 col-12 mb-5">-->
                                     <!--    <div class="MainClasses class-{{ $key++ }}" data-aos="flip-left"-->
                                     <!--        data-aos-easing="ease-out-cubic" data-aos-duration="2000">-->
@@ -211,11 +233,13 @@
                         </div>
                     </div>
                 </div>
+                
                 {{--<div class="col-lg-6">
                     <figure>
                         <img src="{{ asset($section[1]->value) }}" class="img-fluid" alt="">
                     </figure>
                 </div>--}}
+                
             </div>
         </div>
     </section>
