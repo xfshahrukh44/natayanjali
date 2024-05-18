@@ -21,6 +21,8 @@
                         <div class="box-text">
                             {!! $page->content !!}
                             
+                            <p><a class="btn custom-btn" href="{{ route('dance-came-to-be-practiced') }}">Read More</a> <quillbot-extension-portal></quillbot-extension-portal><quillbot-extension-portal></quillbot-extension-portal><quillbot-extension-portal></quillbot-extension-portal></p>
+                            
                         </div>
                     </div>
 

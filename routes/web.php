@@ -183,6 +183,7 @@ Route::post('update/uploadPicture','LoggedInController@uploadPicture')->name('up
 
 Route::get('/','HomeController@index')->name('home');
 
+
 Route::get('/about','HomeController@about')->name('about');
 Route::get('/bharata-natyam','HomeController@bharataNatyam')->name('bharataNatyam');
 Route::get('/school-of-dance','HomeController@classOffered')->name('schoolOfDance');

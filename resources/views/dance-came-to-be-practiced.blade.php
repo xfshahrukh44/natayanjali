@@ -21,6 +21,9 @@
                         <div class="box-text">
                             {!! $page->content !!}
                             
+                             <p><a class="btn custom-btn" href="{{ route('revival-of-bharata-natyam') }}">Read More</a> <quillbot-extension-portal></quillbot-extension-portal><quillbot-extension-portal></quillbot-extension-portal><quillbot-extension-portal></quillbot-extension-portal></p>
+                            
+                            
                         </div>
                     </div>
 

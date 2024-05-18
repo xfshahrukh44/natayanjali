@@ -12,6 +12,9 @@
                 </div>
                 <div class="col-lg-6">
                     {!! $page->content !!}
+                    
+                     <p><a class="btn custom-btn" href="{{ route('origin-of-Bharata-natyam') }}">Read More</a> <quillbot-extension-portal></quillbot-extension-portal><quillbot-extension-portal></quillbot-extension-portal><quillbot-extension-portal></quillbot-extension-portal></p>
+                    
                 </div>
             </div>
         </div>
