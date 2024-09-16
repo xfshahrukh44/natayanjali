@@ -30,3 +30,9 @@
  <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
  <link rel="stylesheet" href="{{ asset('css/inner.css') }}">
  <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+ <style>
+     .box-text p {
+        font-size: 21px;
+        color: #68676e;
+    }
+ </style>
