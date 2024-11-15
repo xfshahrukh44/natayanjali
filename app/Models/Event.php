@@ -14,10 +14,10 @@ class Event extends Model
     protected $table = 'events';
 
     /**
-    * The database primary key value.
-    *
-    * @var string
-    */
+     * The database primary key value.
+     *
+     * @var string
+     */
     protected $primaryKey = 'id';
 
     /**
@@ -27,5 +27,5 @@ class Event extends Model
      */
     protected $fillable = ['name', 'description', 'time', 'image'];
 
-    
+
 }

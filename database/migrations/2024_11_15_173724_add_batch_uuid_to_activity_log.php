@@ -2,9 +2,9 @@
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
-class CreateFaqsTable extends Migration
-{
+return new class extends Migration {
     /**
      * Run the migrations.
      *
@@ -12,11 +12,8 @@ class CreateFaqsTable extends Migration
      */
     public function up()
     {
-        Schema::create('faqs', function (Blueprint $table) {
-            $table->increments('id');
-            $table->timestamps();
-            $table->string('questions')->nullable();
-            $table->string('answer')->nullable();
+        Schema::table('activity_log', function (Blueprint $table) {
+            $table->string('batch_uuid')->nullable();
         });
     }
 
@@ -27,6 +24,8 @@ class CreateFaqsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('faqs');
+        Schema::table('activity_log', function (Blueprint $table) {
+            $table->dropColumn('batch_uuid');
+        });
     }
-}
+};
